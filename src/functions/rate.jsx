@@ -94,7 +94,6 @@ const getCurrentRating = async (movie, curUser) => {
 
     if (matchingDoc) {
         const ratingData = matchingDoc.data();
-        console.log("Current rating: ", ratingData.rating);
         return ratingData.rating;
     }
     else {
@@ -137,7 +136,6 @@ const starRender = (setCurRating, curRating, movie, curUser) => {
             const rating = e.currentTarget.id;
             rate(e, movie, e.currentTarget, curUser).then((response) => {
                 if (response != -1) {
-                    console.log("New rating: ", rating);
                     setCurRating(rating);
                 }
             });
@@ -150,7 +148,6 @@ const starRender = (setCurRating, curRating, movie, curUser) => {
             const rating = e.currentTarget.id;
             rate(e, movie, e.currentTarget, curUser).then((response) => {
                 if (response != -1) {
-                    console.log("New rating: ", rating);
                     setCurRating(rating);
                 }
             });
