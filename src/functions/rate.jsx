@@ -9,7 +9,7 @@ const rate = async (e, movie, currentTarget, curUser) => {
     e.preventDefault();
 
     if (curUser == null) {
-        alert("You must be siged in to rate a movie.");
+        alert("You must be signed in to rate a movie.");
         return -1;
     }
 
