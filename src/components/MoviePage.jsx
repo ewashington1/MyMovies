@@ -7,7 +7,7 @@ import {rate, getCurrentRating} from "../functions/rate"
 import {addToWatchlist, checkIfOnWatchlist, removeFromWatchlist} from "../functions/watchlist"
 import { fetchMovie } from '../functions/fetchMovie'
 import { useContext } from 'react'
-import { UserContext } from '../firebase/userContext'
+import { UserContext } from '../firebase/UserContext'
 import RatingBar from './RatingBar'
 import { addOrRemove } from '../functions/watchlist'
 import { starRender } from '../functions/rate'

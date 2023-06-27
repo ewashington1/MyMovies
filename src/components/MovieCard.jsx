@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
-import { UserContext } from '../firebase/userContext'
+import { UserContext } from '../firebase/UserContext'
 import { starRender } from '../functions/rate'
 import { getCurrentRating } from '../functions/rate'
 import { addOrRemove, checkIfOnWatchlist } from '../functions/watchlist'

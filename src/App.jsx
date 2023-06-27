@@ -9,7 +9,7 @@ import SignUp from "./pages/SignUp"
 import MoviePage from './components/MoviePage';
 import { importLogos } from './fontAwesome';
 import TopRated from './pages/TopRated';
-import { UserContext } from './firebase/userContext';
+import { UserContext } from './firebase/UserContext';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './firebase/config';
 import Profile from './pages/Profile';

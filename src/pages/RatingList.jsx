@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
-import { UserContext } from '../firebase/userContext';
+import { UserContext } from '../firebase/UserContext';
 import {retreiveRatings} from "../functions/rate"
 import MovieCard from '../components/MovieCard';
 import { getUserProfile } from '../functions/userFunctions.js';

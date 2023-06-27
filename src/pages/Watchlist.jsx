@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
-import { UserContext } from '../firebase/userContext';
+import { UserContext } from '../firebase/UserContext';
 import { fetchMovieForArray } from '../functions/fetchMovie';
 import { retreiveWatchlist } from '../functions/watchlist';
 import MovieCard from '../components/MovieCard';
