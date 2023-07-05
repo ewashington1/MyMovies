@@ -6,10 +6,11 @@ import options from '../tmbd';
 const Trending = () => {
     const [trending, setTrending] = useState([]);
 
-    useEffect(() => {          
+    useEffect(() => {       
         fetch('https://api.themoviedb.org/3/trending/movie/day?language=en-US', options)
         .then(response => response.json())
         .then((data) => {
+            console.log(data); 
             setTrending(data.results);
         })
         .catch(err => console.error(err));

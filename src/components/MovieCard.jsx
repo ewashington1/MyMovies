@@ -27,7 +27,7 @@ const MovieCard = ({movie}) => {
             .then((data) => {
                 setCurRating(data);
             })
-    }, [])
+    }, []);
 
     // Get the current date
     const currentDate = new Date();

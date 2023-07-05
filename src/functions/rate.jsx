@@ -132,13 +132,14 @@ const starRender = (setCurRating, curRating, movie, curUser) => {
     let start = 1;
 
     while (start <= curRating) {
-        result.push(<button key={start} id={start} onClick={(e) => {
-            const rating = e.currentTarget.id;
-            rate(e, movie, e.currentTarget, curUser).then((response) => {
-                if (response != -1) {
-                    setCurRating(rating);
-                }
-            });
+        result.push(<button key={start} id={start} 
+            onClick={(e) => {
+                const rating = e.currentTarget.id;
+                rate(e, movie, e.currentTarget, curUser).then((response) => {
+                    if (response != -1) {
+                        setCurRating(rating);
+                    }
+                });
         }
     }><FontAwesomeIcon icon="fa-solid fa-star" /></button>);
         start += 1;
