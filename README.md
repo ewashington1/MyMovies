@@ -1,4 +1,8 @@
-# Movie App
+# MyMovies
+
+## Deployment
+
+The app is deployed on Vercel. You can access it at [https://mymovies-lcf2x3ua0-ewashington1.vercel.app].
 
 This app is built using React, The Movie Database API, Firebase Firestore, and Vercel. It allows users to browse trending movies, rate movies, and add movies to their watchlist.
 
@@ -18,7 +22,3 @@ This app is built using React, The Movie Database API, Firebase Firestore, and V
 - The Movie Database API: An API that provides movie and TV show data.
 - Firebase Firestore: A NoSQL cloud database for storing and syncing data in real-time.
 - Vercel: A platform for deploying and hosting web applications.
-
-## Deployment
-
-The app is deployed on Vercel. You can access it at [https://mymovies-lcf2x3ua0-ewashington1.vercel.app].
